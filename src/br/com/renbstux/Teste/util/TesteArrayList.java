@@ -42,6 +42,7 @@ public class TesteArrayList {
 		
 		System.out.println("---------------------");
 		
+		lista.forEach((conta) -> System.out.println(conta));
 		//Para cada elemento do tipo Object desta lista, queremos que seja impresso o seu valor:
 		for(Conta conta : lista) {
 			System.out.println(conta);
