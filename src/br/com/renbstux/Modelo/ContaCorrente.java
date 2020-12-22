@@ -1,4 +1,5 @@
 package br.com.renbstux.Modelo;
+
 // new ContaCorrente()
 public class ContaCorrente extends Conta implements Tributavel {
 	

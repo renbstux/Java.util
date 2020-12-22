@@ -1,5 +1,7 @@
 package br.com.renbstux.Modelo;
 
+import java.io.Serializable;
+
 /**
  * Classe representa a moldura de uma conta
  * 
@@ -7,8 +9,9 @@ package br.com.renbstux.Modelo;
  * @version 0.1
  */
 
-public abstract class Conta implements Comparable<Conta> {
+public abstract class Conta implements Comparable<Conta>, Serializable  {
 
+	private static final long serialVersionUID = 1L;
 	protected double saldo;
 	private int agencia;
 	private int numero;
